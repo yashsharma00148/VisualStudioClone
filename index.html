@@ -5,9 +5,286 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual Studio Code</title>
     <link rel="icon" type="image/png" href="download.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 </head>
 <body>
-    <h1>Vs code</h1>
+    <header class="" >
+        <div class="logo flex align-middle">
+            <a href="#"><img src="logo.png" alt=""></a>
+            <h3 class="">Visual Studio Code</h3>
+        </div>
+        <ul class="nav-list ">
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Updates</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Extensions</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Learn</a></li>
+        </ul>
+        <div class="right-section">
+            <input type="search" placeholder="Search Docs" class="search  " name="" id="">
+            <button class="download-btn">Download</button>
+        </div>
+        <div class="menu">
+            <i id="hamburger" class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="responsive-navlist">
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Updates</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Extensions</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Learn</a></li>
+            <li>
+
+                <input type="search" placeholder="Search Docs" class="search  " name="" id="">
+            </li>
+            <li>
+
+                <button class="download-btn">Download</button>
+            </li>
+
+        </ul>
+      
+
+
+
+    </header>
+
+
+    <div class="message">
+        <h2><a href="#">Version 1.90</a>is now available! Read about the new features and fixes from May.</h2>
+    </div>
+
+    <div class="hero flex">
+        <div class="text-hero">
+          <h2 class="text-gray-200 text-[30px]">Code Editing</h2>
+          <h3 class="text-[#fff] my-[12px] text-4xl">Refined</h3>
+          <h4 class="text-[#fff] my-[10px] text-[25px]">Free. Built on open source.<br> Runs everywhere.</h4>
+          <button class="download-btn mt-[10px]">Download</button>
+
+        </div>
+        <div class="img-part">
+        <img src="screenshot.png" alt="">
+        </div>
+    </div>
+
+    <!-- <i class="fa-regular fa-lightbulb"></i>
+    <img src="bug.png" alt="">
+    <i class="fa-brands fa-git"></i>
+    <img src="extension.png" alt=""> -->
+
+
+    <div class="links1">
+        <div class="link1">
+            <img src="idea.png" alt="">
+            <p>IntelliSense</p>
+        </div>
+        <div class="link1">
+            <img src="bug.png" alt="">
+            <p>Run and Debug</p>
+        </div>
+        <div class="link1">
+            <img src="github.png" alt="">
+            <p>Built-in Git</p>
+        </div>
+        <div class="link1">
+            <img src="extension.png" alt="">
+            <p>Extensions</p>
+        </div>
+    </div>
+
+
+    <div class="section1">
+        <div class="img-part-section1">
+            <img src="pic1.svg" alt="">
+        </div>
+        <div class="text-section1">
+            <h1>Meet Intellisense</h1>
+            <p>Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="img-part-section2">
+            <img src="pic2.svg" alt="">
+        </div>
+        <div class="text-section2">
+            <h1>Print statement debugging is a thing of the <b>Past</b>.</h1>
+            <p>Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console. </p>
+        </div>
+    </div>
+    <div class="section1">
+        <div class="img-part-section1">
+            <img src="pic3.svg" alt="">
+        </div>
+        <div class="text-section1">
+            <h1>Git commands built-in.</h1>
+            <p>Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="img-part-section2">
+            <img src="pic2.svg" alt="">
+        </div>
+        <div class="text-section2">
+            <h1>Extensible and customizable.</h1>
+             <p>Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. Learn more about <a href="#">Extensions</a>.
+
+             </p>
+        </div>
+    </div>
+    <div class="section1">
+        <div class="img-part-section1">
+            <img src="azure.svg" alt="">
+        </div>
+        <div class="text-section1">
+            <h1>Deploy with confidence and ease</h1>
+            <p>With <a href="#">Microsoft Azure</a> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease,<a href="#"> all from within VS Code.</a>
+
+            </p>
+        </div>
+    </div>
+
+    <div class="section3">
+        <h1 class="text-center text-3xl mt-[10px] text-gray-600">VS Code For</h1>
+        <ul class="nav-list2">
+            <li><a href="#"><img src="js.png" alt="">Javascript</a></li>
+            <li><a href="#"><img src="python.png" alt="">Python</a></li>
+            <li><a href="#"><img src="java.png" alt="">Java</a></li>
+            <li><a href="#"><img src="markdown.png" alt="">Markdown</a></li>
+            <li><a href="#"><img src="typescript.png" alt="">Typescript</a></li>
+            <li><a href="#"><img src="c-.png" alt="">C/C++</a></li>
+            <li><a href="#"><img src="json.png" alt="">JSON</a></li>
+            <li><a href="#"><img src="html.png" alt="">HTML/CSS</a></li>
+        </ul>
+        <p><a href="#">and many more languages on the Marketplace...</a></p>
+        <button class="btn-section3">Get Started Now</button>
+    </div>
+
+
+    <div class="section4">
+        <div class="box">
+            <img src="windows.png" alt="">
+            <button>Windows <br>Windows 10,11   </button>
+            <div class="line1">
+                <h1>User installer</h1>
+                <a href="#">x64</a>
+                <a href="#">Arm64</a>
+            </div>
+            <div class="line1">
+                <h1>System installer</h1>
+                <a href="x64">x64</a>
+                <a href="Arm64">Arm64</a>
+            </div>
+            <div class="line1">
+                <h1>.ZIP</h1>
+                <a href="x64">x64</a>
+                <a href="Arm64">Arm64</a>
+            </div>
+            <div class="line1">
+                <h1>CLI</h1>
+                <a href="x64">x64</a>
+                <a href="Arm64">Arm64</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="linux.png" alt="">
+            <button>Linux <br>Debian,Ubuntu   </button>
+            <div class="line1">
+                <h1>.deb</h1>
+                <a href="#">x64</a>
+                <a href="#">Arm64</a>
+            </div>
+            <div class="line1">
+                <h1>.rpm</h1>
+                <a href="x64">x64</a>
+                <a href="Arm64">Arm64</a>
+            </div>
+            <div class="line1">
+                <h1>.tar.gz</h1>
+                <a href="x64">x64</a>
+                <a href="Arm64">Arm64</a>
+            </div>
+            <div class="line1">
+                <h1>Snap</h1>
+                <a href="x64">x64</a>
+                <a href="Arm64">Arm64</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="mac.png" alt="">
+            <button>Mac <br>macOs 10.15+   </button>
+            <div class="line1">
+                <h1>.zip</h1>
+                <a href="#">intel </a>
+                <a href="#">Apple</a>
+            </div>
+            <div class="line1">
+                <h1>CLI</h1>
+                <a href="x64">intel </a>
+                <a href="Arm64">Apple </a>
+            </div>
+            <div class="line1">
+                <h1>.ZIP</h1>
+                <a href="x64">x64</a>
+                <a href="Arm64">Arm64</a>
+            </div>
+            <div class="line1">
+                <h1>CLI</h1>
+                <a href="x64">x64</a>
+                <a href="Arm64">Arm64</a>
+            </div>
+        </div>
+    </div>
+    <div class="section5">
+        <div class="part">
+            <h1>Want new features sooner?</h1>
+            <p>Get the <a href="#">insiders build</a> instead.</p>
+
+        </div>
+        <div class="part">
+            <h1>Use <a href="#">vscode.dev</a> for quick edits online!
+            </h1>
+            <p>GitHub, Azure Repos, and local files.
+
+            </p>
+
+        </div>
+    </div>
+
+       <div class="privacy">
+        <h1>License and Privacy Terms</h1>
+        <p>By downloading and using Visual Studio Code, you agree to the <a href="#">license terms</a> and <a href="#">privacy statement</a>. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see <a href="#">How to Disable Crash Reporting</a> to learn how to disable it. Third party licenses for the CLI can be <a href="#">found here</a>.</p>
+       </div>
+
+       <div class="footer">
+        <div class="left">
+            <p>Hello from Yash</p>
+            <a href="#">Follow @yashsharma00148</a>
+        </div>
+        <div class="right">
+            <a href="#">Support</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms of use</a>
+            <a href="#">License</a>
+            <a href="#">
+                <div class="microsoft">
+                    
+                    <p>&#169 Yash</p>
+
+                </div>
+            </a>
+        </div>
+       </div>
+    <script src="script.js"></script>
 </body>
 </html>
