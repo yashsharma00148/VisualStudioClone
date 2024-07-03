@@ -563,3 +563,11 @@ header{
 }
 
 
+@media(max-width:500px){
+    .right{
+        font-size: 13px;
+    }
+    .left{
+        font-size: 13px;
+    }
+}
