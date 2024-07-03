@@ -488,7 +488,14 @@ header{
     .section5{
         flex-direction: column;
         align-items: center;
+
         gap: 50px;
+    }
+    .part{
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
     }
 }
 
